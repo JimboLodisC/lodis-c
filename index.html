@@ -23,15 +23,24 @@
       rel="stylesheet"
     />
     <style>
-      body {
+      html {
         background: black;
+        cursor: not-allowed;
+        user-select: none;
+      }
+      body {
         color: #666;
-        cursor: none;
         font-family: "Roboto", sans-serif;
         text-align: center;
       }
       div {
-        margin-top: 40%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      h1 {
+        letter-spacing: 0.42rem;
       }
       p {
         font-style: oblique;
@@ -49,7 +58,7 @@
     <div>
       <h1>www.lodis-c.com</h1>
       <p>where beauty is found...</p>
-      <span>&#169; 2024 Lodis C</span>
     </div>
+    <span>&#169; 2024 Lodis C</span>
   </body>
 </html>
