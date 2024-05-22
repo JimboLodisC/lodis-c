@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "DOWNCOME";
+  src: url("../fonts/downcome-webfont.woff2") format("woff2"),
+    url("../fonts/downcome-webfont.woff") format("woff");
+}
+
+.lclogo {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
+svg {
+  stroke: #030505;
+  stroke-linejoin: round;
+  stroke-width: 0.01rem;
+  z-index: -1;
+}
+
+text {
+  font-family: "DOWNCOME", serif;
+  font-size: 32px;
+  font-weight: bold;
+}
