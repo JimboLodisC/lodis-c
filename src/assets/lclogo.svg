@@ -9,20 +9,20 @@
       }
       text {
         font-family: 'DOWNCOME', serif;
-        font-size: 72px;
+        font-size: 96px;
         font-weight: bold;
       }
     </style>
     <filter id="f1">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" />
       <feDropShadow
         dx="0"
         dy="0.1"
         stdDeviation="0.5"
-        flood-color="gray"
+        flood-color="slategray"
         flood-opacity="0.3" />
     </filter>
   </defs>
-  <text x="45%" y="65%" filter="url(#f1)" >C</text>
-  <text x="18%" y="58%" filter="url(#f1)" >L</text>
+  <text x="40%" y="88%" filter="url(#f1)" >C</text>
+  <text x="5%" y="78%" filter="url(#f1)" >L</text>
 </svg>
