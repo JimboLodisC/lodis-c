@@ -8,7 +8,7 @@
         z-index: -1;
       }
       text {
-        font-family: 'DOWNCOME', serif;
+        font-family: 'DOWNCOME' !important;
         font-size: 96px;
         font-weight: bold;
       }

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'DOWNCOME';
+  src: url('./fonts/DOWNCOME.TTF') format('truetype'),
+  url('./fonts/DOWNCOME.woff') format('woff'),
+  url('./fonts/DOWNCOME.woff2') format('woff2');
+}
+
 html {
   background: black;
   cursor: not-allowed;
